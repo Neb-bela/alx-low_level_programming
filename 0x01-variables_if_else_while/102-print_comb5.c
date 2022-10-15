@@ -20,6 +20,7 @@ int main(void)
 				putchar(32);
 				putchar(i);
 				putchar(k);
+				putchar(44);
 			}
 			if (i == 56)
 			{
