@@ -21,7 +21,7 @@ int main(void)
 					putchar(i);
 					putchar(j);
 					putchar(32);
-					putchar(i);
+					putchar(l);
 					putchar(k);
 					putchar(44);
 					if (i == 56)
