@@ -16,7 +16,7 @@ int main(void)
 
 			for (j = 0; j < 1; j++)
 			{
-				putchar(13);
+				putchar(36);
 			}
 		}
 		else
