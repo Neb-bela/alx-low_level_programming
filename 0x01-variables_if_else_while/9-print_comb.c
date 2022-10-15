@@ -11,7 +11,7 @@ int main(void)
 	for (i = 48; i < 57; i++)
 	{
 		putchar(i);
-		putchar(43);
+		putchar(44);
 	}
 	putchar(i = 58);
 	putchar('\n');
