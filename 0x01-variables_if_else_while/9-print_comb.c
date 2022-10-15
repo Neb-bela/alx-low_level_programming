@@ -12,12 +12,7 @@ int main(void)
 		putchar(i);
 		if (i == 57)
 		{
-			int j;
-
-			for (j = 0; j < 1; j++)
-			{
-				putchar(10);
-			}
+			putchar(10);
 		}
 		else
 		{
