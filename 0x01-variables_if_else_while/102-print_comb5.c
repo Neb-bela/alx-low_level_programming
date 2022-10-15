@@ -10,7 +10,7 @@ int main(void)
 	int k;
 	int l;
 
-	for (i = 48; i < 57; i++)
+	for (i = 48; i <= 57; i++)
 	{
 		for (j = 48; j < 57; j++)
 		{
@@ -24,7 +24,7 @@ int main(void)
 					putchar(l);
 					putchar(k);
 					putchar(44);
-					if (i == 56)
+					if (i == 57 && j == 56 && l == 57 && k == 57)
 					{
 						putchar(10);
 					}
