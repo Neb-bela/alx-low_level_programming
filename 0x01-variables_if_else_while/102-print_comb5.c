@@ -8,26 +8,30 @@ int main(void)
 	int i;
 	int j;
 	int k;
+	int l;
 
 	for (i = 48; i < 57; i++)
 	{
-		for (j = 48; j <= 57; j++)
+		for (j = 48; j < 57; j++)
 		{
-			for (k = i + 1; k <= 57; k++)
+			for (l = 48; l <= 57; l++)
 			{
-				putchar(i);
-				putchar(j);
-				putchar(32);
-				putchar(i);
-				putchar(k);
-				putchar(44);
-				if (i == 56)
+				for (k = i + 1; k <= 57; k++)
 				{
-					putchar(10);
-				}
-				else
-				{
+					putchar(i);
+					putchar(j);
 					putchar(32);
+					putchar(i);
+					putchar(k);
+					putchar(44);
+					if (i == 56)
+					{
+						putchar(10);
+					}
+					else
+					{
+						putchar(32);
+					}
 				}
 			}
 		}
