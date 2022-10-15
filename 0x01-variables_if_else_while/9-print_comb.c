@@ -3,7 +3,7 @@
  * main- Entry
  * Return: Always 0
  */
-int main(void)
+void main(void)
 {
 	int i;
 
@@ -20,5 +20,4 @@ int main(void)
 			putchar(32);
 		}
 	}
-	return (0);
 }
