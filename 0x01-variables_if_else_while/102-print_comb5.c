@@ -15,11 +15,11 @@ int main(void)
 		{
 			for (k = 48; k <= 57; k++)
 			{
-				putchar(k);
 				putchar(i);
-				putchar(32);
-				putchar(k);
 				putchar(j);
+				putchar(32);
+				putchar(i);
+				putchar(k);
 			}
 			if (i == 56)
 			{
