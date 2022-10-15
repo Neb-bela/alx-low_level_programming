@@ -14,8 +14,15 @@ int main(void)
 		{
 			putchar(i);
 			putchar(j);
-			putchar(44);
-			putchar(32);
+			if (i == 56)
+			{
+				putchar(10);
+			}
+			else
+			{
+				puchar(44);
+				putchar(32)
+			}
 		}
 	}
 	return (0);
