@@ -9,7 +9,7 @@ int main(void)
 
 	for (i = 0; i < 17; i++)
 	{
-		putchar(0xi);
+		putchar("%x", i);
 	}
 	putchar('\n');
 	return (0);
