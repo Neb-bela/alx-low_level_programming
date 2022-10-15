@@ -11,9 +11,9 @@ int main(void)
 
 	for (i = 48; i < 57; i++)
 	{
-		for (j = i + 1; j <= 57; j++)
+		for (j = 48; j <= 57; j++)
 		{
-			for (k = 48; k <= 57; k++)
+			for (k = i + 1; k <= 57; k++)
 			{
 				putchar(i);
 				putchar(j);
@@ -21,14 +21,14 @@ int main(void)
 				putchar(i);
 				putchar(k);
 				putchar(44);
-			}
-			if (i == 56)
-			{
-				putchar(10);
-			}
-			else
-			{
-				putchar(32);
+				if (i == 56)
+				{
+					putchar(10);
+				}
+				else
+				{
+					putchar(32);
+				}
 			}
 		}
 	}
