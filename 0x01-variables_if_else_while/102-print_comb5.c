@@ -25,6 +25,7 @@ int main(void)
 			putchar(32);
 			putchar(m + 48);
 			putchar(n + 48);
+			putchar(44);
 
 			if (i == 98)
 				putchar(10);
