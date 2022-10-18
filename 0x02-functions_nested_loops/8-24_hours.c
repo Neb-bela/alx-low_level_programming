@@ -16,12 +16,12 @@ void jack_bauer(void)
 		if (a < 10)
 		{
 			c = a % 10;
-			_putchar(a);
-			_putchar(c);
+			_putchar('a');
+			_putchar('c');
 		}
 		else
 		{
-			_putchar(a);
+			_putchar('a');
 		}
 		_putchar(':');
 		for (b = 0; b <= 59; b++)
@@ -31,11 +31,11 @@ void jack_bauer(void)
 			if (b < 10)
 			{
 				d = b % 10;
-				_putchar(b);
-				_putchar(d);
+				_putchar('b');
+				_putchar('d');
 			}
 			else
-				_putchar(b);
+				_putchar('b');
 			_putchar('\n');
 		}
 	}
