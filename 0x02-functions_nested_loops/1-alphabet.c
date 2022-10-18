@@ -1,10 +1,16 @@
 #include "main.h"
 /**
- * main- Entry
- * Return: Always 0
+ *print_alphabet- writes characters
+ * Return: void
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+
+		char alp[26] = {abcdefghijklmnopqrstuvwxyz};
+
+		for (i = 0; i <= 26; i++)
+		{
+			_putchar(i);
+		}
+		_putchar('\n');
 }
