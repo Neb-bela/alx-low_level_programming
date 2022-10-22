@@ -3,13 +3,12 @@
 #include <stdio.h>
 /**
  *main- Entry
- *Return: Always 0
+ *Return: Always Void
+ *@int n: int n
  */
 
-int main(void)
+void positive_or_negative(int n)
 {
-	int n;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
@@ -25,5 +24,4 @@ int main(void)
 	{
 		printf("%d is neative\n", n);
 	}
-	return (0);
 }
