@@ -4,10 +4,9 @@
  *@char- character
  *Return: n
  */
-char *string_toupper(char *)
+char *string_toupper(char *n)
 {
 	int i;
-	char *n;
 
 	i = 0;
 	for (n[i] != '\0';)
