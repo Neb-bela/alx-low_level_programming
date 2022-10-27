@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *string_toupper- concatenation
- *@char- character
+ *@n- character
  *Return: n
  */
 char *string_toupper(char *n)
